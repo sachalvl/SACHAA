@@ -33,6 +33,14 @@ a {
     align-items: flex-end;
 }
 
+.alignstart{
+    text-align: left;
+}
+
+.textcenter{
+    text-align: center;
+}
+
 .gap8 {
     gap: 8px;
 }
@@ -59,10 +67,20 @@ a {
     width: 23%;
 }
 
+.large90{
+    width: 90%;
+}
+
 /*Container*/
 
-.container {
+.container1000 {
     max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container350{
+    max-width: 200px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -90,6 +108,18 @@ a {
     padding: 16px 32px;
 
 }
-.classtest{
+
+.bgimg{
+    background-image: url(assets/images/mmh\ chocolat.png);
+    padding-top: 256px;
+    padding-bottom: 256px;
+    background-size: cover;
+    background-position: top;
     
+}
+
+.card{
+    width: 30%;
+    background-color: brown;
+
 }
