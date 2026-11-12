@@ -1,0 +1,95 @@
+/*RESET*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Mise en page : flexbox*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.gap8 {
+    gap: 8px;
+}
+
+.gap16 {
+    gap: 16px;
+}
+
+/*Des classes de largeurs*/
+
+.large100 {
+    width: 100%;
+}
+
+.large-48 {
+    width: 48%;
+}
+
+.large-30 {
+    width: 30%;
+}
+
+.large-23 {
+    width: 23%;
+}
+
+/*Container*/
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Margins*/
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+/*Composants*/
+
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+
+}
+.classtest{
+    
+}
