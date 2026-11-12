@@ -10,26 +10,39 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <header>
-        <div class="flex between">
-            <img src="assets/images/logooo.png" alt="">
-            <nav>
-                <a href=""><i class="ph ph-user"></i></a>
-                <a href=""><i class="ph ph-bag"></i></a>
-            </nav>
 
-        </div>
+    <header class="flex between align-center bgcolor">
+
+
+        <img src="assets/images/logooo.png" alt="">
+
+        <nav>
+            <a href="#Produits">Produits</a>
+            <a href="#Services">Services</a>
+            <a href="#Avis">Avis</a>
+            <a href="#Promesses">Promesses</a>
+        </nav>
+
+        <nav>
+            <a href=""><i class="ph ph-user"></i></a>
+            <a href=""><i class="ph ph-bag"></i></a>
+        </nav>
+
+
     </header>
 
     <section class="bgimg">
 
-        <div class="container350 flex alignstart">
+        <div class="flex marginleft large-30">
+
             <h1>Faites fondre votre coeur !</h1>
 
-            <p>Chocolaterie traditionnelle lyonnaise depuis 1953, Le Palais du Chocolat met tout son savoir-faire au
+            <p class="mt-32">Chocolaterie traditionnelle lyonnaise depuis 1953, Le Palais du Chocolat met tout son
+                savoir-faire au
                 service
                 de
                 votre plaisir. Véritable amateur de chocolat, votre artisan chocolatier fournit un travail de qualité,
@@ -38,22 +51,22 @@
                 la sélection des fèves que dans le processus de fabrication. C’est ainsi que la magie opère pour nous
                 permettre
                 de vous offrir des chocolats d’exception.</p>
-            <a href="">Voir nos produits</a>
+            <a href="" class="mt-32">Voir nos produits</a>
         </div>
 
 
     </section>
 
-    <section class="mt100">
+    <section class="mt100 large100 container1000" id="Produits">
 
         <h2>Nos Produits</h2>
 
-        <div class="flex gap8">
+        <div class="flex gap8 mt100 between">
             <div class="large-30 card">
 
-                <img src="assets/images/praline-croustillant-pexels-seurafrancis99-37439237.jpg" alt="" class="large90">
+                <img src="assets/images/CARD1.png" alt="" class="large100">
 
-                <div class="large-48">
+                <div>
                     <h3>Praliné croustillant</h3>
                     <p>Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants.
                         Un véritable délice
@@ -64,9 +77,9 @@
 
 
             <div class="large-30 card">
-                <img src="assets/images/truffe-champagne-pexels-planka-31325599.jpg" alt="" class="large90">
+                <img src="assets/images/CARD2.png" alt="" class="large100">
 
-                <div class="large-48">
+                <div>
                     <h3>Truffe au champagne</h3>
                     <p>Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une
                         saveur subtile et
@@ -78,9 +91,9 @@
 
             <div class="large-30 card">
 
-                <img src="assets/images/tablette-chocolat-noir-pexels-alleksana-4113333.jpg" alt="" class="large90">
+                <img src="assets/images/CARD3.png" alt="" class="large100">
 
-                <div class="large-48">
+                <div>
                     <h3>Tablette de chocolat noir 70% </h3>
                     <p>Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs.
                         Un grand classique
@@ -90,14 +103,13 @@
             </div>
         </div>
 
-        <div class="flex gap8 mt100">
+        <div class="flex gap8 mt100 between">
 
-            <div class="large-30">
+            <div class="large-30 card">
 
-                <img src="assets/images/coffret-chocolats-assortis-pexels-anthony-rahayel-125801377-38444667.jpg"
-                    class="large100" alt="">
+                <img src="assets/images/CARD4.png" alt="" class="large100">
 
-                <div class="large-48">
+                <div>
                     <h3>Coffret de chocolats assortis</h3>
                     <p> Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers. Un cadeau
                         gourmand et
@@ -107,8 +119,8 @@
 
 
 
-            <div class="large-30">
-                <img src="assets/images/chocolat-chaud-pexels-leeloothefirst-5264675.jpg" alt="" class="large100">
+            <div class="large-30 card">
+                <img src="assets/images/CARD5.png" alt="" class="large100">
 
                 <h3>Chocolat chaud</h3>
                 <p>Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.</p>
@@ -116,8 +128,8 @@
 
 
 
-            <div class="large-30">
-                <img src="assets/images/mendiants-pexels-pinklime-foody-169881302-11074275.jpg" alt="" class="large100">
+            <div class="large-30 card">
+                <img src="assets/images/CARD6.png" alt="" class="large100">
 
                 <h3>Mendiants</h3>
                 <p>Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche.</p>
@@ -125,85 +137,160 @@
         </div>
     </section>
 
-    <section class="mt100">
+    <section class="mt100 large100 container1000" id="Services">
 
         <h2 class="textcenter">Nos Services</h2>
 
-        <div class="flex mt100">
+        <div class="flex mt100 align-center between">
 
-            <h3>Chocolat artisanaux</h3>
+            <div class="large40">
+                <h3>Chocolat artisanaux</h3>
 
-            <p>Découvrez notre sélection de chocolats faits à la main, alliant tradition et créativité pour des saveurs
-                uniques.</p>
+                <p>Découvrez notre sélection de chocolats faits à la main, alliant tradition et créativité pour des
+                    saveurs
+                    uniques.</p>
+            </div>
 
-            <img src="assets/images/chocolats-artisanaux-pexels-linken-van-zyl-263454378-18958634.jpg" alt="">
+            <img src="assets/images/SERVICE1.png" alt="" class="large40">
         </div>
 
-        <div class="flex">
-            <img src="assets/images/atelier-degustation-pexels-jonathanborba-34357862.jpg" alt="">
+        <div class="flex mt100 align-center between">
 
-            <h3>Ateliers de dégustation</h3>
 
-            <p>Participez à nos ateliers pour apprendre à déguster le chocolat comme un expert, en explorant ses arômes
-                et ses textures.</p>
+            <img src="assets/images/SERVICE2.png" alt="" class="large40">
+
+            <div class="large40">
+                <h3>Ateliers de dégustation</h3>
+
+                <p>Participez à nos ateliers pour apprendre à déguster le chocolat comme un expert, en explorant ses
+                    arômes
+                    et ses textures.</p>
+            </div>
         </div>
 
-        <div class="flex">
+        <div class="flex mt100 align-center between">
 
-            <div class="container350 textcenter">
+            <div class="large40">
                 <h3>Cadeaux personnalisés</h3>
 
                 <p>Offrez des cadeaux gourmands avec nos coffrets de chocolats personnalisés, parfaits pour toutes les
                     occasions.</p>
             </div>
 
-            <img src="assets/images/cadeaux-personnalises-pexels-soufianlafnesh-36914973.jpg" alt="">
+            <img src="assets/images/SERVICE3.png" alt="" class="large40">
         </div>
 
 
     </section>
 
-    <section class="mt100 flex">
-        <h2>Ils ont cru en nous :</h2>
+    <section class="mt100 container1000" id="Avis">
 
-        <div class="large-30">
-            <img src="assets/images/Sophie.png" alt="">
+        <h2 class="textcenter">Ils ont cru en nous :</h2>
+        <div class="flex between">
+            <div class="large-30 mt100">
 
-            <h3>Sophie</h3>
+                <img src="assets/images/Sophie.png" alt="">
 
-            <p> Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et
-                originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce cadeau
-                parfait.</p>
+                <h3>Sophie</h3>
+
+                <p> Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées
+                    et
+                    originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce
+                    cadeau
+                    parfait.</p>
+            </div>
+
+            <div class="large-30 mt100">
+
+                <img src="assets/images/Antoine.png" alt="">
+
+                <h3>Antoine</h3>
+
+                <p>Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde
+                    a
+                    adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.</p>
+            </div>
+
+            <div class="large-30 mt100">
+
+                <img src="assets/images/Nicolas.png" alt="">
+
+                <h3>Nicolas</h3>
+
+                <p>J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat
+                    était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.
+                </p>
+
+            </div>
         </div>
 
-        <div class="large-30">
-            <img src="assets/images/Antoine.png" alt="">
+    </section>
 
-            <h3>Antoine</h3>
+    <section class="mt100 large100 container1000" id="Promesses">
 
-            <p>Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a
-                adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.</p>
-        </div>
+        <h2 class="textcenter">Nos promesses</h2>
 
-        <div class="large-30">
-            <img src="assets/images/Nicolas.png" alt="">
+        <div class="flex gap64 mt100">
 
-            <h3>Nicolas</h3>
+            <div class="large20">
+                <img src="" alt="">
+                <p>• Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec
+                    soin
+                </p>
+            </div>
 
-            <p>J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat
-                était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.</p>
+            <div class="large20">
+                <img src="" alt="">
+                <p>• Des saveurs uniques et originales, pour des sensations gustatives incomparables</p>
+            </div>
+
+            <div class="large20">
+                <img src="" alt="">
+                <p>• Une attention particulière portée à la présentation des chocolats, pour des cadeaux gourmands
+                    inoubliables
+                </p>
+            </div>
+
+            <div class="large20">
+                <img src="" alt="">
+                <p>• Un service personnalisé et attentionné, pour répondre à toutes vos demandes et envies</p>
+            </div>
 
         </div>
 
     </section>
 
-    <section>
+    <footer class="padding128">
 
-        <h2>Nos promesses</h2>
+        <div class="flex around">
+            <div class="large40">
+                <h3>Travaillons ensemble</h3>
 
-        <div></div>
+                <p>Une idée, un projet, une envie de collaboration? Contactez moi, Je serais ravi d'en discuter et de
+                    voir
+                    comment avancer ensemble. Laisez votre adresse de messagerie je vous rappelerai dans les plus brefs
+                    délais.
+                </p>
+                <p>Sacha</p>
 
-    </section>
+                <i class="ph ph-instagram-logo"></i>
+                <i class="ph ph-linkedin-logo"></i>
+            </div>
+
+            <div class="large40">
+                <input type="text" placeholder="Nom" class="padding16">
+                <input type="email" placeholder="email" class="padding16">
+                <a href="" class="btn">Envoyer</a>
+            </div>
+        </div>
+        <hr class="mb64">
+        <div class="textcenter footer">
+            <p>Mentions légales</p>
+            <p>Sacha Laval</p>
+            <p>Roi du chocolat</p>
+        </div>
+
+    </footer>
 
 
 
